@@ -1,0 +1,53 @@
+ https://codepen.io/HyRisk031/pen/NWboKpa?editors=1100
+ 
+    1. What is Semantic HTML? the correct use of html to reinforce the mean of content on a web page.
+    2. What is HTML used for? structure a web page and its content
+    3. What is an attribute and where do we put it? special words used inside the opening tag to control the elements behavior.
+    we put it in angle brackets.
+    4. What is the h1 tag used for? How many times should I use it on a page? It should be used once, and it's meant to be the biggest title.
+    5. Name two tags that have required attributes? class and id
+    6. What do we put in the head of our HTML document? title 
+    7. What is an id? id specifies a unique id for html element
+    8. What elements can I add an id to? all 
+    9. How many times can I use the same id on a page? just once
+    10. What is a class? a selector to be more specific
+    11. What elements can I add a class to? 
+    12. How many times can I use the same class on a page? multiple times
+    13. How do I get my link to open in a new tab? target=_
+    14. What is the alt attribute in the image tag used for? used for people who cant see screen.
+    15. How do I reference an id? using #
+    16. What is the difference between a section and a div? section means the content is grouped and should appear as a entry in anoutline of a page. 
+    div does not convey any meaning
+    17. What is CSS used for? styling html 
+    18. How to we select an element? Example - every h2 on the page h2 {}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one. id can only be used once, class multipe
+    it's meant to be more specific.
+    20. How do we select classes in CSS? period then class name.
+    21. How do we select a p element with a single class of “human””? 
+    .human {}
+    22. What is a parent child selector? When would this be useful? ex: .div h1 //To be more specific. anything can be a parent or child, but body is the only thing that can be a parent 
+    23. How do you select all links within a div with the class of sidebar? 
+    24. What is a pseudo selector? selector that selects elements that are in a specific state.
+    25. What do we use the change the spacing between lines? <br>
+    26. What do we use to change the spacing between letters? letter-spacing 
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? text-transform
+    28. How do I add a 1px border around my div that is dotted and black? 
+    div {border:1px};
+    29. How do I select everything on the page? 
+    30. How do I write a comment in CSS? //
+    31. How do I find out what file I am in, when I am using the command line? ls 
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    34. Why should I use version control? keeps track of changes
+    35. How often should I commit to github? often 
+    36. What is the command we would use to push our repo up to github? git push origin -u first-last
+    37. Walk me through Lambda's git flow. fork, go back to cli then git clone command then cd command, git checkout-b first-name. do work, then git add . then git commit -m : notes. then push
+    then remember branch name. pull request. go back to forked project. then click branch:master
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element? inline does not force a new line, block does 
+    2. What happens when an element is positioned absolutely? it overrides 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? margin
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default //
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? //
